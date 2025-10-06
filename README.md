@@ -52,7 +52,7 @@ Frontend: Static web interface hosted on Amazon S3, allowing users to interact w
 - Auth / Security	IAM Roles and Policies
 
 # 🧾 Lambda Function (Core Logic)
----
+```bash
 response = bedrock.invoke_model(
     modelId="amazon.titan-text-lite-v1",
     body=json.dumps({
@@ -66,7 +66,7 @@ response = bedrock.invoke_model(
 )
 model_response = json.loads(response['body'].read())
 ai_response = model_response['results'][0]['outputText']
----
+```
 
 
 # 🌐 Frontend
