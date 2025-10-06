@@ -44,7 +44,7 @@ def lambda_handler(event, context):
     )
 
     model_response = json.loads(response['body'].read())
-    ai_response = model_response['results'][0]['outputText']  # Titan returns outputText
+    ai_response = model_response['results'][0]['outputText']  # Titan returns the outputText
 
     # Save to RDS
     with connection.cursor() as cursor:
