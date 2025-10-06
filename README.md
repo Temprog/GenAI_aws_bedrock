@@ -24,6 +24,13 @@ The Lambda function invokes Amazon Bedrock’s Titan Text model to generate resp
 [S3 Frontend UI] → [API Gateway] → [Lambda Function] → [Bedrock (Titan Model)]
                                                     ↳ [RDS MySQL Database]
 
+# 💬 Chat Deployment & Frontend
+
+Backend: AWS Lambda function integrated with Amazon Bedrock via API Gateway for real-time text generation and RDS storage.
+Frontend: Static web interface hosted on Amazon S3, allowing users to interact with the chatbot in real time through a clean browser UI.
+
+🔗 [Live Chat Demo](http://genai-webui.com.s3-website.eu-north-1.amazonaws.com/)
+
 
 # 🧑‍💻 Features
 
