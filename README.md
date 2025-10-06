@@ -52,7 +52,7 @@ Frontend: Static web interface hosted on Amazon S3, allowing users to interact w
 - Auth / Security	IAM Roles and Policies
 
 ## 🧾 Lambda Function (Core Logic)
-```bash
+```python
 response = bedrock.invoke_model(
     modelId="amazon.titan-text-lite-v1",
     body=json.dumps({
@@ -87,7 +87,7 @@ ai_response = model_response['results'][0]['outputText']
 - Create a MySQL instance
 - Create a table:
 
-```bash
+```sql
 CREATE TABLE responses (
     id INT AUTO_INCREMENT PRIMARY KEY,
     prompt TEXT,
