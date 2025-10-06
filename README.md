@@ -133,5 +133,5 @@ The Spa at The Waldorf Hilton
 - Implement a React-based frontend with enhanced UX
 
 
-# 📜 License
+## 📜 License
 This project is released under the MIT License.
