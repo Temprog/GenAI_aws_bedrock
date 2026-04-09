@@ -12,7 +12,7 @@ The Lambda function invokes Amazon Bedrock’s Titan Text model to generate resp
 
 ## 🧩 Architecture Components
 
-- Amazon Bedrock – Provides LLM inference (Titan Text Lite model)
+- Amazon Bedrock – Provides LLM inference (Titan Text Lite model used / Claude also supported)
 - AWS Lambda – Handles inference requests and data persistence
 - API Gateway (HTTP API) – Exposes a REST endpoint for the frontend
 - Amazon RDS (MySQL) – Stores prompts and AI-generated responses
@@ -21,7 +21,7 @@ The Lambda function invokes Amazon Bedrock’s Titan Text model to generate resp
 
 
 ## ⚙️ Architecture Diagram
-[S3 Frontend UI] → [API Gateway] → [Lambda Function] → [Bedrock (Titan Model)]
+[S3 Frontend UI] → [API Gateway] → [Lambda Function] → [Bedrock (Titan Model/Claude)]
                                                     ↳ [RDS MySQL Database]
 
 ## 💬 Chat Deployment & Frontend
