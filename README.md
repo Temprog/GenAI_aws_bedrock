@@ -1,4 +1,4 @@
-## 🧠 AWS LLM Chatbot (Generative AI Text System)
+## 🧠 Serverless GenAI Assistant (Generative AI Text System)
 
 A serverless Generative AI chatbot powered by Amazon Bedrock and deployed on AWS using Lambda, API Gateway, RDS and S3.
 This project demonstrates scalable, low-latency LLM-powered text generation with a simple browser-based frontend.
